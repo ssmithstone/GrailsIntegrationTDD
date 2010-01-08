@@ -1,0 +1,7 @@
+grails test-app -integration ssmithstone.MyControllerIntegration
+
+this fails with the testJSONResponseForInfo, however
+
+grails test-app -integration ssmithstone.MyControllerIntegration.testJSONResponseForInfo 
+
+passes
